@@ -1,0 +1,11 @@
+{
+  "name": "nnn-unbroken-club",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A four-player November streak arena. No build required.",
+  "scripts": {
+    "test": "node --test tests/game.test.cjs",
+    "test:backend": "node tests/backend.test.mjs"
+  },
+  "devDependencies": { "@electric-sql/pglite": "0.5.14" }
+}
